@@ -1,4 +1,16 @@
 /* CSS Document */
+.ws-words{
+	display: inline;
+	text-indent: 0.3em;
+}
+.ws-words-1 span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	-webkit-animation: rotateWord 0s linear infinite 0s;
+	-ms-animation: rotateWord 0s linear infinite 0s;
+	animation: rotateWord 0s linear infinite 0s;
+}
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
     2% { opacity: 0; -webkit-transform: translateY(-30px); }

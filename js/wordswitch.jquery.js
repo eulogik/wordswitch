@@ -30,7 +30,6 @@ $.fn.wordswitch = function(options) {
 };
 }( jQuery ));
 
-$( ".wordswitch" ).wordswitch(); // Makes all the links green.
 
 
 
